@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(241, 241, 255);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: "Roboto";
+}
+.card-container {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+
+  transition: ease-in 200ms;
+}
+.card-container:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.sub_info{
+display: flex;
+justify-content: space-between;
+}
+.user-details {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin: 4px;
+}
+.user-details > img {
+  width: 100px;
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 24px;
+  transition: ease-in-out 200ms;
+}
+.user-details > img:hover{
+  border: 4px solid #3c8067;
+}
+.info {
+  padding: 2px;
+  line-height: 20px;
+  margin-right: 52px;
+}
+.info>h4{
+  color: #898a90;
+  font-size: 14px;
+}
+p {
+  font-weight: 500;
+  color: #898a90;
+}
+h3 {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.secondary-detail {
+  display: flex;
+  flex-direction: column;
+}
+.mail {
+  display: flex;
+  line-height: 24px;
+  align-items: center;
+  padding: 12px 24px 12px 12px;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.mail:hover{
+  background-color: #dedede;
+}
+
+.mail-details{
+  width: 85%;
+}
+.adress-details{
+  width: 85%;
+}
+h4{
+  line-height: 20px;
+}
+.adress {
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px 28px 12px 12px;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.adress:hover{
+  background-color: #dedede;
+}
+button {
+  margin: 8px;
+  padding: 12px;
+  background-color: #3c8067;
+  color: #fff;
+  width: 43%;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  word-spacing: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1c4a39;
+}
+#geoloacation{
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  z-index: -1   ;
+  right: 38%;
+  border: 1px solid;
+
+  border-radius: 10px;
+  transition: ease-out 500ms;
+
+}
+
+
+
+
