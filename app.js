@@ -58,11 +58,11 @@ getUser();
 
 // function for toggling map on click
 function showHtmlDiv() {
-  if (geoloaction.style.right === "38%") {
-    geoloaction.style.right = "14%";
+  if (geoloaction.style.display === "none") {
+    geoloaction.style.display = "block";
     console.log("block");
   } else {
-    geoloaction.style.right = "38%";
+    geoloaction.style.display = "none";
     console.log("none");
   }
 }

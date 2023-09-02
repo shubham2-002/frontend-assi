@@ -124,13 +124,11 @@ button:hover {
   height: 350px;
   width: 350px;
   position: absolute;
-  z-index: -1   ;
-  right: 38%;
+  right: 215px;
   border: 1px solid;
-
+  display: none;
   border-radius: 10px;
   transition: ease-out 500ms;
-
 }
 
 
