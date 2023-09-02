@@ -45,7 +45,8 @@ const getUser = async () => {
 
 // function for Location on Map
 const pointlocation = (lati, longi) => {
-  map.setView([lati, longi], 5);
+
+  map.setView([lati, longi], 6);
   L.tileLayer(openMapurl, {
     maxZoom: 19,
     attribution: "© OpenStreetMap",
@@ -58,11 +59,11 @@ getUser();
 
 // function for toggling map on click
 function showHtmlDiv() {
-  if (geoloaction.style.display === "none") {
-    geoloaction.style.display = "block";
+  if (geoloaction.style.right === "580px") {
+    geoloaction.style.right = "215px";
     console.log("block");
   } else {
-    geoloaction.style.display = "none";
+    geoloaction.style.right = "580px";
     console.log("none");
   }
 }

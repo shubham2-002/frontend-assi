@@ -124,9 +124,10 @@ button:hover {
   height: 350px;
   width: 350px;
   position: absolute;
-  right: 215px;
+  right: 580px;
   border: 1px solid;
-  display: none;
+  z-index: -1;
+
   border-radius: 10px;
   transition: ease-out 500ms;
 }
